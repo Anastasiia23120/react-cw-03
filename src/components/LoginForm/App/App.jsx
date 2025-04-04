@@ -11,6 +11,8 @@ import FormTask from "../FormTask/FormTask";
 import Filter from "../Filter/Filter";
 import css from "./App.module.css";
 
+import FeedbackForm from "../FeedbackForm/FeedbackForm";
+
 function App() {
   const handleLogin = (userData) => {
     console.log(userData);
@@ -39,6 +41,10 @@ function App() {
 
   return (
     <div className={css.container}>
+      <h1 style={{ color: "hotpink" }}>Lesson 2</h1>
+      <FeedbackForm />
+
+      <h1 style={{ color: "hotpink" }}>Lesson 1</h1>
       <h1>1.Form</h1>
       <h3>Please login to your account!</h3>
       <LoginForm onLogin={handleLogin} />
