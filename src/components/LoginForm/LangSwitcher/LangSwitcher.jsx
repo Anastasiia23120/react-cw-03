@@ -1,5 +1,5 @@
-import { useId } from "react";
 import CSS from "./LangSwitcher.module.css";
+import { useId } from "react";
 
 const LangSwitcher = ({ value, onSelect }) => {
   const selectId = useId();
